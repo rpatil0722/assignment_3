@@ -1,0 +1,68 @@
+body 
+    {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1em;
+        background-color: #EDEDED;
+        line-height: 2em;
+    }
+
+p:first-of-type::first-letter
+    {
+        font-size: 30px;
+    }
+
+h3
+    {
+        color: blue;
+        border-bottom: solid 1px #929CA4;
+        border-width: 1px;
+    
+    }    
+.solution
+        {
+            font-weight: bold;
+            color: #CC1C0D ;
+        }
+ #testimonial1, #testimonial2
+ {
+        font-style: italic;
+        margin-left: 50px;
+ }
+ a[href ^= "http"]:unvisited
+        {
+            color: purple;
+            text-decoration: none;
+        }
+a[href ^= "http"]:visited
+        {
+            color: green;
+            text-decoration: none;
+            
+        }
+
+a[href ^= "http"]:active
+        {
+            color: blue;
+            text-decoration:double;
+            
+        }
+
+a[href ^= "http"]:hover{
+        color: red;
+        text-decoration:wavy;
+}
+    
+ul
+{
+list-style-type: none;
+}
+
+ul li:first-of-type
+{
+    color: blue;
+}
+
+ul li:last-of-type
+{
+    color:red;
+}

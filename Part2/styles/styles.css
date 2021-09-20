@@ -1,0 +1,94 @@
+body
+{
+    width: 960px;
+    margin: 0 0 0 20px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1em;
+	line-height: 2em;
+}
+
+ul:first-of-type 
+{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+h2{
+    padding-left: 10px;
+    border-color: #929ca4;
+    border-radius: 5px;
+    border-style: solid 1em;
+    background-color: #dfe3e6;
+    
+}
+
+a,h2
+{
+    color: red;
+    
+}
+
+img 
+{
+	margin: 7px 6px 0 0;
+    float: left;
+}
+ul li ul li {
+	margin-left: 40px;	
+}
+
+#vprospect,#vconvert,#vretain 
+{
+	font-weight: bold;	
+}
+section img
+{
+    border-color: red;
+    border-radius: 50px;
+    border-style:solid;
+    margin-right: 20px;
+}
+
+.pricing
+{
+    width: 950px;
+}
+
+.pricing div img {
+	float: none ;
+	border: none;
+}
+
+.pricing div {
+	width: 230px;
+	float: left;
+	border: 1px solid #929CA4;
+	border-radius: 10px;
+	margin-right: 5px;
+	text-align: center;
+	padding-top: 10px;
+	margin-bottom: 20px;
+}
+
+.pricing div h3 {
+	font-size: 1.3em;
+	padding-top: 10px;
+}
+.pricing div:nth-child(1) h3 {
+	border-top: 10px solid #CC1C0D;
+}
+.pricing div:nth-child(2) h3 {
+	border-top: 10px solid #37A4A4;
+}
+.pricing div:nth-child(3) h3 {
+	border-top: 10px solid #685288;
+}
+.pricing div:nth-child(4) {
+	padding-top: 32px;
+}
+.pricing div:nth-child(4) h3 {
+	border-top: 10px solid #000;
+}
+
+
